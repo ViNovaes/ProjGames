@@ -11,7 +11,6 @@ const Stack = createNativeStackNavigator();
 export default props => {
     return(
         <SafeAreaView style={{flex:1}}>
-            {/* <Login/> */}
             <NavigationContainer>
                 <Stack.Navigator>
                     <Stack.Screen name='Entrar' component={Begin}/>
