@@ -10,24 +10,24 @@ export default props => {
         <View style={{marginLeft: 20, marginRight: 20}}>
 
             <View style={styleRegister.iconTop}>
-                <Image style={styleRegister.imgIni} source={require('./img/register.png')}/>
+                <Image style={styleRegister.imgReg} source={require('./img/register.png')}/>
             </View>
 
             <Text style={styleRegister.title}>Register</Text>
 
-            <View style={styleRegister.login2}>
+            <View style={styleRegister.reg2}>
                 <View style={styleRegister.linha}>
-                    <Image style={styleRegister.imgLogin} source={require('./img/google.png')}/>
+                    <Image style={styleRegister.imgReg} source={require('./img/google.png')}/>
                 </View>
                 <View style={styleRegister.linha}>
-                    <Image style={styleRegister.imgLogin} source={require('./img/facebook.png')}/>
+                    <Image style={styleRegister.imgReg} source={require('./img/facebook.png')}/>
                 </View>
                 <View style={styleRegister.linha}>
-                    <Image style={styleRegister.imgLogin} source={require('./img/twitter.png')}/>
+                    <Image style={styleRegister.imgReg} source={require('./img/twitter.png')}/>
                 </View>
             </View>
 
-            <Text style={styleRegister.txt}>Ou faça login com o email...</Text>
+            <Text style={styleRegister.txt}>Ou faça Login com o email...</Text>
 
             <View style={styleRegister.view}>
                 <Ionicons name="person-outline" size={20} color="#000"/>
@@ -69,7 +69,7 @@ export default props => {
 
 const styleRegister = StyleSheet.create(
     {
-        imgIni:{
+        imgReg:{
             height: 300,
             width: 300,
         },
@@ -92,13 +92,13 @@ const styleRegister = StyleSheet.create(
             borderBottomWidth: 1,
             marginBottom: 10
         },
-        login2:{
+        reg2:{
             alignItems:'center',
             flexDirection:`row`,
             justifyContent: 'space-between',
             margin: 20
         },
-        imgLogin:{
+        imgReg:{
             height:30,
             width:30,
             
