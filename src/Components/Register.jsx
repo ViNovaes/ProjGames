@@ -17,13 +17,13 @@ export default props => {
 
             <View style={styleRegister.reg2}>
                 <View style={styleRegister.linha}>
-                    <Image style={styleRegister.imgReg} source={require('./img/google.png')}/>
+                    <Image style={styleRegister.imgRegSub} source={require('./img/google.png')}/>
                 </View>
                 <View style={styleRegister.linha}>
-                    <Image style={styleRegister.imgReg} source={require('./img/facebook.png')}/>
+                    <Image style={styleRegister.imgRegSub} source={require('./img/facebook.png')}/>
                 </View>
                 <View style={styleRegister.linha}>
-                    <Image style={styleRegister.imgReg} source={require('./img/twitter.png')}/>
+                    <Image style={styleRegister.imgRegSub} source={require('./img/twitter.png')}/>
                 </View>
             </View>
 
@@ -98,7 +98,7 @@ const styleRegister = StyleSheet.create(
             justifyContent: 'space-between',
             margin: 20
         },
-        imgReg:{
+        imgRegSub:{
             height:30,
             width:30,
             
